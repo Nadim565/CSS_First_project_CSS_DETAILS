@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Practice Class </title>
+</head>
+
+<body>
+    <hr>
+    <hr>
+    <marquee direction="right">
+        <h1 align="center" style="background-color: coral;">
+            <caption> CSS </caption>
+        </h1>
+    </marquee>
+    <marquee direction="left">
+        <h1 align="center" style="background-color: coral;">
+            <caption> DETAILS </caption>
+        </h1>
+    </marquee>
+    <br><br>
+    <div align="center">
+        <img src="./6d07a36ebe6d55273b39440f2391f1d7e6d4092a.webp" alt="CSS_cover_picture" height="300px" width="800px">
+    </div>
+    <br><br>
+    <h1 align="center" style="background-color: green;"> <b> CSS কি? What is CSS? </b> </h1>
+    <h3>
+        <p style="background-color:darkmagenta"><b>CSS যার অর্থ হলো : </b></p>
+    </h3>
+    <p align="justify" style="background-color: tomato;">
+        CSS যার অর্থ হলো Cascading Style Sheets CSS এবং এটি একটা design language। মানে website design সম্পর্কিত কাজ করার জন্য আমরা এই CSS ব্যবহার করে থাকি। এর মাধ্যমে আমরা আমাদের website এর কোন HTML document এর style নির্ধারণ করে থাকি। যেমন- কোন একটা বক্স দেখতে
+        কেমন হবে, তার রং কি রকম হবে, এর দৈর্ঘ্য বা প্রস্থ কত হবে ইত্যাদি। এমনকি আমরা CSS এর মাধ্যমে বলে দেই যে যত প্রকার HTML tag রয়েছে তা আমাদের ওয়েবসাইটে কি রকম দেখাবে। আমরা যখন কোন ওয়েবসাইট তৈরী করি তখন প্রথমে markup অথবা HTML কোড লিখে থাকি। কিন্তু
+        এই HTML কোডগুলোতে যদি কোন style দেওয়া না হয় তাহলে HTML ফাইলটি পরিপুর্ণতা পায় না বা আমাদের ডিজাইন মত হয় না বা যেভাবে HTML কোডগুলো লেখা হয়েছে সেভাবেই দেখাবে। কিন্তু আমরা যদি HTML ফাইলকে আমাদের ডিজাইন মত দেখাতে চাই তাহলে আমাদেরকে অবশ্যই CSS ব্যবহার
+        করতে হবে। যার ফলে আমরা কোন ট্যাগকে ইচ্ছা মত কালার, ফন্ট সাইজ ইত্যাদি নির্ধারণ করে দিতে পারব।
+    </p>
+    <p align="justify"><i>
+        আমরা বলতে পারব যে কোন অংশটুকু কতটুকু জায়গা নিবে বা কোন দিকে এই অংশ টুকু দেখাবে ইত্যাদি কাজ করার জন্য আমরা CSS ব্যবহার করতে পারব। যেমন- মনে করুন আমরা একটি বাড়ি বানাতে চাই। তার জন্য আমাদের ইট, বালি, সিমন্টে, রড লাগবে। এই ইট, বালি, সিমেন্ট, রড ইত্যাদি হলো HTML ট্যাগ যার ফলে আমাদের বাড়ির কাঠামো তৈরী করতে পারি। কিন্তু আমরা যদি চাই বাড়ির এই দিকে এই রং হবে, দেওয়ালে একটা ছবি থাকবে, ছবির চারদিকে একটা বর্ডার থাকবে, পুরো বাড়ির একপাশ আকাশী কালারের হবে ইত্যাদি হলো CSS এর মূল কাজ।
+    </i>
+    </p>
+    <br><br>
+    <hr>
+    <hr>
+    <h2>
+        <p style="background-color: DeepPink;" align="center"><b>
+        CSS ছাড়া :
+    </b></p>
+    </h2>
+    <div align="center">
+        <img src="./before-css-1-1.png" alt=" without_css_pic" height="200px" width="250px">
+    </div>
+    <h2>
+        <p style="background-color: Fuchsia;" align="center"><b>
+        CSS সংযুক্ত করার পর :</b>
+        </p>
+    </h2>
+    <div align="center">
+        <img src="./after-css-1-1.png" alt=" without_css_pic" height="200px" width="250px">
+
+    </div>
+    <h1 style="background-color: burlywood" align="center"> CSS কত প্রকার? </h1>
+
+    <h3>
+        <p align="justify" style="background-color: chocolate;"><b>
+           ====> CSS কত প্রকার বলতে বুঝানো হচ্ছে যে অমরা কয়ভাবে CSS Code লিখতে পারব।
+        </b>
+        </p>
+    </h3>
+    <p align="justify" style="background-color: blueviolet;"> CSS Code আমরা ৩ ভাবে লিখতে পারব।</p>
+    <h2>
+        <p style="background-color: violet"><b>
+         ১। Inline CSS 
+         <br>
+         ২। Internal CSS
+         <br> 
+         ৩। External CSS
+
+        </b>
+        </p>
+    </h2>
+    <h1 style="background-color: tomato;"> ১। Inline CSS :</h1>
+    <p align="justify" style="background-color: antiquewhite;">
+        ===> Inline CSS Code লিখার জন্য আমরা HTML ট্যাগের ভিতরে style নামের একটি এট্রিবিউট নিয়ে তার মধ্যে CSS কোড লিখে থাকি। মনে করুন আমাদের HTML Page এই লেখাটি আছে
+    </p>
+    <div align="center" style=" background-color: rgb(245, 179, 231);">
+        <h3>Website Design Using CSS3</h3>
+    </div>
+    <p align="justify">
+        ===> উপরের এই Website Design Using CSS3 লেখাটি আমরা h3 tag এর মাধ্যমে লিখেছি। এখন আমরা যদি কোন Inline CSS Code লিখতে চাই তাহলে আমাদের এভাবে লিখতে হবে-
+        <br>
+        <div align="center">
+            <h3 style="font-size:17px;">Website Design Using CSS3</h3>
+        </div>
+    </p>
+    <p style="background-color: tomato;">
+        ===> এখানে দেখা যাচ্ছে যে Inline CSS Code লিখার জন্য আমাদের কে <b> style </b> নামের একটি Attribute এই h3 Tag এর ভিতর নিতে হয়েছে। তারপর যে CSS Code আপনি লিখতে চান, আপনি তা লিখতে পারবেন। আমাদের এই উদাহরনে Website Design Using CSS3 এই লেখাটির font
+        size টি 17px করে দিয়েছি।
+    </p>
+
+    <h1 style="background-color: tomato;">
+        ২। Internal CSS :
+    </h1>
+    <p align="justify ">
+        <b> Internal CSS Code </b> লিখতে হলে আমাদেরকে অবশ্যই HTML File এর head tag এর ভিতরে style নামে tag টি নিয়ে CSS Code লিখতে হবে। যেমন- আগের উদাহরনের মত আমরা যদি সেই h3 tag এর font size টি পরিবর্তন করতে চাই তাহলে আমাদের লিখতে হবে-
+    </p>
+
+    <style>
+        h3 {
+            font-size: 17px;
+        }
+    </style>
+    <h1 style="background-color: tomato; ">
+        ৩। External CSS :
+    </h1>
+    <p align="justify ">
+        <b> Inline CSS </b> এবং <b> Internal CSS Code</b> যেভাবে লিখি <b> External CSS Code </b> ও সেভাবে লিখতে হবে তবে শুধুমাত্র পার্থক্য হলো External CSS Code লিখতে হলে আপনাকে নতুন একটি CSS File তৈরী করতে হবে। এই CSS File এর ভিতরে আপনাকে CSS Code লিখতে
+        হবে। যেমন- আগের উদাহরনের মতো যদি আমরা কোন h3 tag এর font size পরিবর্তন করতে চাই তাহলে লিখতে হবে <b><u> h3 { font-size : 17px; } </u></b>মনে রাখতে External CSS ক্ষেত্রে CSS Code একটি নতুন CSS File এ লিখতে হবে এবং এখানে style tag এর কোন দরকার নেই।
+        আপনি সরাসরি আপনার CSS Code কোড লিখতে পারবেন।
+    </p>
+    <h1 style="background-color: tomato; ">
+        কিভাবে CSS File তৈরী করব?
+    </h1>
+    <p align=" justify " style="background-color: rgb(246, 71, 255);>
+        নতুন একটি CSS File তৈরী করা একদম সহজ। আমরা সাধারনত কম্পিউটারে বিভিন্ন File দেখে থাকি যেমন- কোন ছবি, Word File, Excell File ইত্যাদি। এই সব ছবি, Word File, Excell File এর প্রত্যেকের এক একটি Extension রয়েছে। মানে ছবির জন্য picture.jpg, picture.gif, picture.png
+        এই ধরনের ফাইল থাকে তাই না? আবার Word File বা Excell File এর জন্য my_biodata.docx বা account.xls দেখে থাকি।
+    </p>
+    <p align=" justify " style="background-color: tomato; ">
+        এখন এখানে .jpg, .gif, .png, .docx, .xls এগুলোকেই বলা হয় Extension। আর আমরা যেহেতু নতুন একটি CSS File তৈরী করব তার জন্য আমাদের তৈরীকৃত ফাইলটির Extension হতে হবে .css। মানে আপনি যদি style নামের কোন একটি ফাইল তৈরী করেন তাহলে তার নামের পরে অবশ্যই .css দিয়ে
+        আসতে হবে.
+    </p>
+    <h2>
+        <p style="background-color: royalblue; "><b>
+            Example:
+        </b></p>
+    </h2>
+
+    <h2 style=" background-color: coral; ">
+        তাহলে কোন Style এ CSS Code করব এবং Priority কোনটির বেশি?
+    </h2>
+
+    <p align=" justify "> আপনি আপনার Website এর জন্য কোন Style এ CSS Code লিখবেন মানে Inline, Internal নাকি External CSS এ লিখবেন তা নির্ভর করে আপনি কিভাবে আপনার ওয়েবসাইটি তৈরী করতে চান। যদি আপনি চান যে একটি মাত্র ফাইল দিয়ে আপনার static website টি তৈরী করবেন তাহলে Internal
+        CSS code লিখতে পারেন। আর Internal CSS code লিখতে হলে আমাদেরকে HTML head tag এর ভিতরে style tag দিয়ে লিখতে হবে। আবার আপনি যদি চান যে আলাদা আরো একটি ফাইল নিয়ে আপনার website টি তৈরী করবেন তাহলে External CSS code লিখতে পারেন। আর External CSS code
+        লিখতে হলে আপনাকে নতুন একটি CSS ফাইল তৈরী করতে হবে এবং সেই ফাইলটির extension টি অবশ্যই .css হতে হবে যেমন - stye.css আবার এমন যদি হয় যে আপনার Internal এবং External CSS এ যে code লিখেছেন তা আপনি override করবনে তাহলে Inline CSS code লিখতে পারেন।
+    </p>
+
+    <h1 style="background-color: aqua; ">
+        <b>
+                Override মানে?
+            </b>
+    </h1>
+
+    <p align="jusdify " style="background-color: rgba(216, 104, 24, 0.732); ">
+        আপনি যে CSS Code লিখছেন তাদের কিন্তু আবার কিছু Priority আছে। মনে করুন আমরা আমাদের আগের উদাহারনের মত h3 নামের যে tag টি রয়েছে তার font size টি পরিবর্তন করব। আর তার জন্য আমরা External CSS file এ লিখলাম - h3 { font-size : 17px; } আবার Internal CSS এ লিখলাম.
+    </p>
+    <style>
+        h3 {
+            font-size: 18px;
+        }
+    </style>
+    <p style="background-color: violet; "> <b>
+        আবার Inline CSS এ লিখলাম-
+        </b>
+    </p>
+    <h3 style="font-size : 19px; ">Website Design Using CSS3</h3>
+    <p align="justify " style="background-color: rgb(164, 26, 143); ">
+        এখন কথা হচ্ছে, আপনি ৩ জায়গার ৩ টি font size উল্লেখ করে এসেছেন আর তা হলো - 17px, 18px এবং 19px। তাহলে কোন CSS Code টি কাজ করবে? হ্যা, এখানেই আমাদের Override কথাটির Answer পেয়ে যাবো। মনে রাখবেন Inline CSS code সবার প্রথমে কাজ করবে (যদি লিখে থাকেন), তারপর
+        Internal CSS code কাজ করবে (যদি লিখে থাকেন) এবং সবার শেষে External CSS code কাজ করবে (যদি CSS File তৈরী করা থাকে) এখন আমাদের এই উদাহরনে Inline CSS code টি কাজ করবে মানে font size টি হয়ে যাবে 19px। এই Override কে আবার CSS Code এর Priority বলা হয়ে
+        থাকে। তাহলে বলা যায় যে Priority সবার চেয়ে বেশি হলো Inline CSS এর তারপর Internal CSS এবং সবশেষ External CSS
+    </p>
+    <h1 align="justify " style="background-color: blueviolet; ">
+        HTML ফাইলে এ কোন CSS File কিভাবে লিংক করব ?
+    </h1>
+    <p align="justify " style="background-color: rgb(19, 193, 155); ">
+        কোন একটি HTML Document এ আপনি সহজেই যত খুশি তত CSS File লিংক করতে পারবেন। CSS File লিংক করা বলতে বুঝানো হচ্ছে যে External CSS File কে। আর এই External CSS File কে লিংক করতে হলে আমাদের ব্যবহার করতে হবে নিচের কোডটি -
+    </p>
+    <p>
+        <link rel="stylesheet " href="my_style.css " type="text/css ">
+    </p>
+    <p align="justify " style="background-color: rgb(216, 147, 208); ">
+        উপরের কোডে প্রথমে আমরা HTML link tag ব্যবহার করেছি। এই tag এর কাজ হলো কোন একটি External CSS File কে আমাদের Document লিংক করা। এখন এই tag এর attribute হিসেবে আমাদের কমপক্ষে ১ টি attribute অবশ্যই দিয়ে আসতে হবে আর তা হলো href । এই href কাজ হলো আপনার External
+        CSS File টি কোথায় তার ঠিকানা বা address টি বলে দেওয়া।
+    </p>
+    <p align="justify " style="background-color: rgb(224, 16, 200); ">
+        মানে আপনি যে জায়গায় আপনার External CSS File টি রেখেছে তার ঠিকানা বা address টি দিয়ে দিবেন। মনে করুন আপনি আপনার কম্পিউটারে my_folder নামে নতুন একটি Folder নিলেন এবং এই my_folder এর ভিতরেই আপনার HTML ফাইল এবং External CSS File টি রয়েছে। তাহলে href attribute
+        এর ঠিকানা বা address হিসেবে দিতে হবে শুধুমাত্র External CSS File এর নামটি। তাই না? কারন এই External CSS File টি তো অন্য কোন জায়গায় আপনি রাখেন নি। যদি মনে করুন এই my_folder এর ভিতর style নামরে একটি Folder করতেন এবং এই Folder এর ভিতর ঐ External
+        CSS File টি রাখতেন তাহলে href attribute এর ঠিকানা বা address হিসেবে ব্যবহার করতে হতো -
+
+        <link rel="stylesheet " href="my_folder/my_style.css " type="text/css ">
+    </p>
+
+
+
+
+    <!-- For Following link use only logo  -->
+    <div>
+        <h2>Follow me Social Media </h2>&nbsp;
+        <!-- Facebook link by logo  -->
+        <a href="https://www.facebook.com/md.nadimahmed.75033/ ">
+            <img src="./logo/facebook.png " alt="Facebook-logo " width="50px " height="50px ">
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- Twitter link by logo  -->
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- Instagram link by logo  -->
+        <a href="https://www.instagram.com/p/CbafdLVPRsi/?igshid=YmMyMTA2M2Y=">
+            <img src=" ./logo/instagram.png " alt="instagram-logo " width="50px " height="50px ">
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- Tiktok link by logo  -->
+        <a href="https://www.linkedin.com/in/md-nadim-ahmed-634aa423b/ ">
+            <img src="./logo/t_500x300.jpg " alt="TikTok-logo " width="50px " height="50px ">
+        </a>
+    </div>
+    <br><br>
+    <div style="font-size: 30px; ">
+        <b> Md Nadim Ahmed </b><u>&nbsp;&nbsp; <b>(2022) @Copy Right  </b></u>
+    </div>
+    <br><br>
+    <!-- Privacy Policy Terms  -->
+    <div style="font-size: 25px; ">
+        <small>Privacy Policy Cookies Policy .</small><br>
+        <i> @Terms and condition</i>
+    </div>
+</body>
+
+</html>
